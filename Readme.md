@@ -2,8 +2,8 @@
 
 Ein interaktives Streamlit-Dashboard zur Visualisierung und Analyse von Data- und AI-Jobs aus der RemoteOK API.
 
-![Python](https://img.shields.io/badge/Python-3.14.2+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.31+-red.svg)
+![Python](https://img.shields.io/badge/Python-3.14.2-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.54-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 📋 Inhaltsverzeichnis
