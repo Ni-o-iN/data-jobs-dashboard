@@ -8,7 +8,7 @@ url = "https://remoteok.com/api"
 response = requests.get(url)
 data = response.json()
 
-print(f"Anzahl aller Jobs: {len(data)}")
+print(f"Number of all jobs: {len(data)}")
 
 data_ai_keywords = ["data", "ai", "machine learning", "ml"]
 
@@ -24,8 +24,7 @@ for job in data:
             filtered_jobs.append(job)
             break
 
-print(f"Anzahl passender Jobs {len(filtered_jobs)}")
-#print(filtered_jobs[1])
+print(f"number of matching jobs: {len(filtered_jobs)}")
 
 all_tags = []
 for job in filtered_jobs:
@@ -48,14 +47,14 @@ st.markdown("---")
 # Key Metrics
 col1, col2, col3, col4 = st.columns([2.5,1,2,1])
 with col2:
-    st.metric("Gesamt Jobs", len(data))
+    st.metric("Total jobs", len(data))
 with col3:
     st.metric("Data/AI Jobs", len(filtered_jobs))
 
 st.markdown("---")
 
 # Pie Chart für Top Tags
-st.subheader("🏷️ Top 10 Job-Kategorien")
+st.subheader("🏷️ Top 10 Job categories")
 
 # Daten vorbereiten für Plotly
 labels = [tag for tag, count in top_10_tags]
@@ -64,13 +63,13 @@ values = [count for tag, count in top_10_tags]
 fig = px.pie(
     names=labels,
     values=values,
-    title="Häufigste Tags in Data/AI Jobs"
+    title="Most common tags in Data/AI jobs"
 )
 
 st.plotly_chart(fig)
 
 # Jobs Tabelle
-st.subheader("📋 Gefundene Jobs")
+st.subheader("📋 Jobs found")
 
 job_data = []
 for job in filtered_jobs:

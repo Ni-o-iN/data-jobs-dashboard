@@ -39,13 +39,7 @@ Dieses Projekt ist ein **interaktives Dashboard** zur Exploration des Data- und 
 ## 🖼️ Demo
 
 ### Dashboard-Ansicht
-*[Screenshot hier einfügen]*
-
-### Pie Chart - Top Job-Kategorien
-*[Screenshot hier einfügen]*
-
-### Job-Tabelle
-*[Screenshot hier einfügen]*
+![Overview](data-ai-dashboard-overview.png)
 
 ## 🚀 Installation
 
