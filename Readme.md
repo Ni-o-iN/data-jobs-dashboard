@@ -3,7 +3,7 @@
 Ein interaktives Streamlit-Dashboard zur Visualisierung und Analyse von Data- und AI-Jobs aus der RemoteOK API.
 
 ![Python](https://img.shields.io/badge/Python-3.14.2-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.54-red.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.54.0-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 📋 Inhaltsverzeichnis
@@ -126,8 +126,8 @@ vorkommen.
 
 | Technologie | Verwendung |
 |------------|-----------|
-| **Python 3.9+** | Programmiersprache |
-| **Streamlit** | Web-Dashboard Framework |
+| **Python 3.14.2** | Programmiersprache |
+| **Streamlit 1.54.0** | Web-Dashboard Framework |
 | **Plotly Express** | Interaktive Visualisierungen |
 | **Requests** | API-Calls |
 | **Collections (Counter)** | Daten-Aggregation |
@@ -168,74 +168,6 @@ data-jobs-dashboard/
 
 **Hinweis:** Die API liefert hauptsächlich Job-Kategorien als Tags (z.B. "engineer", "senior"), weniger technische Skills (z.B. "python", "pandas").
 
-## 🔮 Mögliche Erweiterungen
-
-### Kurzfristig (1-2 Tage)
-- [ ] **Filter-Sidebar** - Nach Company, Location, Tags filtern
-- [ ] **Balkendiagramm** - Top 10 Companies mit den meisten Jobs
-- [ ] **Export-Funktion** - Gefilterte Jobs als CSV herunterladen
-- [ ] **Link zu Jobs** - Direkter Link zur Stellenanzeige
-
-### Mittelfristig (1 Woche)
-- [ ] **Mehrere APIs** - Adzuna, Arbeitnow kombinieren
-- [ ] **Tech-Stack Parsing** - Job-Descriptions nach Python, SQL, etc. durchsuchen
-- [ ] **Gehaltsinformationen** - Visualisierung wenn vorhanden
-- [ ] **Speicherfunktion** - Favoriten-Jobs markieren
-
-### Langfristig (2+ Wochen)
-- [ ] **Datenbank** - Historische Daten speichern
-- [ ] **Trend-Analyse** - Jobmarkt-Entwicklung über Zeit
-- [ ] **Job-Alerts** - Email-Benachrichtigung bei neuen passenden Jobs
-- [ ] **ML-Matching** - Automatisches Matching basierend auf eigenem Profil
-
-## 📚 Learnings
-
-Was ich in diesem Projekt gelernt habe:
-
-### APIs & Datenverarbeitung
-- ✅ REST API-Calls mit `requests`
-- ✅ JSON-Daten parsen und verarbeiten
-- ✅ Daten filtern und aggregieren mit Python
-- ✅ Umgang mit unstrukturierten Daten
-
-### Web-Development
-- ✅ Streamlit Dashboard-Entwicklung
-- ✅ Layout mit Columns und Containern
-- ✅ Page Config und Styling
-
-### Datenvisualisierung
-- ✅ Plotly Express für interaktive Charts
-- ✅ Pie Charts erstellen und customizen
-- ✅ Dataframes in Streamlit anzeigen
-
-### Best Practices
-- ✅ Virtual Environments nutzen
-- ✅ Requirements.txt für Dependencies
-- ✅ Code-Kommentare und Struktur
-- ✅ Git & GitHub Workflow
-
-## 👤 Kontakt
-
-**Nico Ohler**
-
-- 📧 Email: nico.ohler99.no@gmail.com
-- 💼 LinkedIn: [Dein LinkedIn Profil]
-- 🐙 GitHub: [github.com/DEIN-USERNAME]
-
 ## 📝 Lizenz
 
 Dieses Projekt steht unter der MIT License - siehe [LICENSE](LICENSE) Datei für Details.
-
-## 🙏 Acknowledgments
-
-- [RemoteOK](https://remoteok.com/) für die kostenlose API
-- [Streamlit](https://streamlit.io/) für das großartige Framework
-- [Plotly](https://plotly.com/) für interaktive Visualisierungen
-
----
-
-⭐ **Wenn dir dieses Projekt gefällt, gib ihm einen Star auf GitHub!**
-
----
-
-**Erstellt als Portfolio-Projekt im Rahmen meiner Jobsuche im Data/AI-Bereich | Februar 2025**
