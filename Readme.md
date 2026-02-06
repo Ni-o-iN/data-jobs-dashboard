@@ -6,7 +6,7 @@ An interactive Streamlit dashboard for visualizing and analyzing Data and AI job
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📋 Inhaltsverzeichnis
+## 📋 Table of Contents
 
 - [About the project](#about-the-procekt)
 - [Features](#features)
@@ -14,11 +14,11 @@ An interactive Streamlit dashboard for visualizing and analyzing Data and AI job
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Project-Structure](#projekt-structure)
-- [API-Information](#api-information)
-- [Licens](#licens)
+- [Project Structure](#projekt-structure)
+- [API Information](#api-information)
+- [License](#license)
 
-## 🎯 About the Procekt
+## 🎯 About the Project
 
 This project is an **interactive dashboard** designed to explore the Data and AI job market. It uses the RemoteOK API to fetch current remote job listings, filters them by relevant keywords, and visualizes the results in a clear and user-friendly way.
 
@@ -121,7 +121,7 @@ Jobs are included if these keywords appear in:
 | **Requests** | API calls |
 | **Collections (Counter)** | Data aggregation |
 
-## 📁 Projekt-Structure
+## 📁 Projekt Structure
 
 ```
 data-jobs-dashboard/
