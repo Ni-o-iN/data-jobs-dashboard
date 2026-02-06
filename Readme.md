@@ -1,40 +1,37 @@
 # 💼 Data & AI Jobs Dashboard
 
-Ein interaktives Streamlit-Dashboard zur Visualisierung und Analyse von Data- und AI-Jobs aus der RemoteOK API.
+An interactive Streamlit dashboard for visualizing and analyzing Data and AI job listings fetched from the RemoteOK API.
 
-![Python](https://img.shields.io/badge/Python-3.14.2-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.54.0-red.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0+-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 📋 Inhaltsverzeichnis
 
-- [Über das Projekt](#über-das-projekt)
+- [About the project](#about-the-procekt)
 - [Features](#features)
 - [Demo](#demo)
 - [Installation](#installation)
-- [Verwendung](#verwendung)
-- [Technologien](#technologien)
-- [Projekt-Struktur](#projekt-struktur)
-- [API-Informationen](#api-informationen)
-- [Mögliche Erweiterungen](#mögliche-erweiterungen)
-- [Learnings](#learnings)
-- [Kontakt](#kontakt)
-- [Lizenz](#lizenz)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Project-Structure](#projekt-structure)
+- [API-Information](#api-information)
+- [Licens](#licens)
 
-## 🎯 Über das Projekt
+## 🎯 About the Procekt
 
-Dieses Projekt ist ein **interaktives Dashboard** zur Exploration des Data- und AI-Jobmarktes. Es nutzt die RemoteOK API, um aktuelle Remote-Jobs zu laden, filtert diese nach relevanten Keywords und visualisiert die Ergebnisse übersichtlich.
+This project is an **interactive dashboard** designed to explore the Data and AI job market. It uses the RemoteOK API to fetch current remote job listings, filters them by relevant keywords, and visualizes the results in a clear and user-friendly way.
 
-**Motivation:** Als angehender Data-Professional wollte ich den Jobmarkt besser verstehen und gleichzeitig praktische Erfahrung mit APIs, Datenvisualisierung und Web-Dashboards sammeln.
+**Motivation:** As an aspiring data professional, I wanted to better understand the job market while gaining hands-on experience with APIs, data visualization, and web dashboards.
 
 ## ✨ Features
 
-- 🔍 **Automatische Filterung** - Findet Data/AI-relevante Jobs aus 95+ Remote-Positionen
-- 📊 **Interaktive Visualisierungen** - Pie Chart für Top-Kategorien
-- 📋 **Übersichtliche Tabelle** - Alle gefilterten Jobs auf einen Blick
-- 📈 **Key Metrics** - Schneller Überblick über Anzahl der Jobs
-- 🔄 **Live-Daten** - Aktualisiert bei jedem Laden der Seite
-- 💻 **Responsive Design** - Wide-Layout für bessere Übersicht
+- 🔍 **Automatic Filtering** - Identifies Data/AI-relevant jobs from 95+ remote positions
+- 📊 **Interactive Visualizations** - Pie chart showing top job categories
+- 📋 **Clean Job Table** - All filtered jobs at a glance
+- 📈 **Key Metrics** - Quick overview of total and filtered job counts
+- 🔄 **Live-Daten** - Updates on every page load
+- 💻 **Responsive Design** - Wide layout for improved readability
 
 ## 🖼️ Demo
 
@@ -43,21 +40,21 @@ Dieses Projekt ist ein **interaktives Dashboard** zur Exploration des Data- und 
 
 ## 🚀 Installation
 
-### Voraussetzungen
+### Prerequisites
 
-- Python 3.9 oder höher
+- Python 3.10 or higher
 - pip (Python Package Manager)
 - Git (optional, zum Klonen)
 
-### Schritt-für-Schritt Anleitung
+### Step-by-Step Guide
 
-1. **Repository klonen** (oder als ZIP herunterladen):
+1. **Clone the repository** (or download as ZIP):
    ```bash
    git clone https://github.com/DEIN-USERNAME/data-jobs-dashboard.git
    cd data-jobs-dashboard
    ```
 
-2. **Virtual Environment erstellen** (empfohlen):
+2. **Create a virtual environment** (recommended):
    
    **Windows:**
    ```bash
@@ -71,84 +68,80 @@ Dieses Projekt ist ein **interaktives Dashboard** zur Exploration des Data- und 
    source venv/bin/activate
    ```
 
-3. **Dependencies installieren:**
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Dashboard starten:**
+4. **Run the dashboard:**
    ```bash
    streamlit run app.py
    ```
 
-5. **Browser öffnen:**
-   - Das Dashboard öffnet sich automatisch unter `http://localhost:8501`
-   - Falls nicht, öffne den Link manuell im Browser
+5. **Open your browser:**
+   - The dashboard will open automatically at `http://localhost:8501`
+   - If not, open the link manually in your browser
 
-## 💡 Verwendung
+## 💡 Usage
 
-### Dashboard-Funktionen
+### Dashboard Components
 
-1. **Key Metrics (oben)**
-   - Zeigt die Gesamtanzahl aller Jobs
-   - Zeigt gefilterte Data/AI-Jobs
+1. **Key Metrics (Top Section)**
+   - Displays the total number of jobs
+   - Shows the number of filtered Data/AI jobs
 
-2. **Top 10 Job-Kategorien (Pie Chart)**
-   - Visualisiert die häufigsten Tags in Data/AI-Jobs
-   - Interaktiv: Hover für Details
+2. **Top 10 Job Categories (Pie Chart)**
+   - Visualizes the most common tags in Data/AI jobs
+   - Interactive: hover to see details
 
-3. **Job-Tabelle**
-   - Alle gefilterten Jobs mit Position, Company, Location, Tags
-   - Scrollbar bei vielen Einträgen
-   - Sortierbar durch Klick auf Spaltenüberschriften
+3. **Job Table**
+   - Lists all filtered jobs with position, company, location, and tags
+   - Scrollable for large result sets
+   - Sortable by clicking on column headers
 
-### Filter-Keywords
+### Filter Keywords
 
-Das Dashboard filtert Jobs nach folgenden Keywords:
+The dashboard filters jobs using the following keywords:
 - `data`
 - `ai`
 - `machine learning`
 - `ml`
 
-Jobs werden gefunden, wenn diese Keywords in:
-- Position/Job-Titel
-- Tags
+Jobs are included if these keywords appear in:
+- the job title / position
+- the tags
 
-vorkommen.
+## 🛠️ Technologies
 
-## 🛠️ Technologien
-
-| Technologie | Verwendung |
+| Technology | Usage |
 |------------|-----------|
-| **Python 3.14.2** | Programmiersprache |
-| **Streamlit 1.54.0** | Web-Dashboard Framework |
-| **Plotly Express** | Interaktive Visualisierungen |
-| **Requests** | API-Calls |
-| **Collections (Counter)** | Daten-Aggregation |
+| **Python 3.14.2** | Programming language |
+| **Streamlit 1.54.0** | Web dashboard framework |
+| **Plotly Express** | Interactive visualizations |
+| **Requests** | API calls |
+| **Collections (Counter)** | Data aggregation |
 
-## 📁 Projekt-Struktur
+## 📁 Projekt-Structure
 
 ```
 data-jobs-dashboard/
 │
-├── app.py                 # Haupt-Dashboard-Anwendung
-├── requirements.txt       # Python-Dependencies
-├── README.md             # Diese Datei
-├── .gitignore            # Git-Ignore-Regeln
-└── venv/                 # Virtual Environment (lokal)
+├── app.py                          # Main dashboard application
+├── requirements.txt                # Python dependencies
+└── data-ai-dashboard-overview.png  # Demo Overview
 ```
 
-## 🌐 API-Informationen
+## 🌐 API Information
 
 ### RemoteOK API
 
 - **Endpoint:** `https://remoteok.com/api`
-- **Typ:** REST API
-- **Authentifizierung:** Keine (öffentlich)
-- **Rate Limit:** Fair Use (nicht spammen)
-- **Datenformat:** JSON
+- **Type:** REST API
+- **Authentication:** None (public)
+- **Rate Limit:** Fair Use (please dont spam)
+- **Data Format:** JSON
 
-**Beispiel-Response:**
+**Example response::**
 ```json
 {
   "id": "123456",
@@ -160,8 +153,8 @@ data-jobs-dashboard/
 }
 ```
 
-**Hinweis:** Die API liefert hauptsächlich Job-Kategorien als Tags (z.B. "engineer", "senior"), weniger technische Skills (z.B. "python", "pandas").
+**Note:** The API primarily provides job categories as tags (e.g. “engineer”, “senior”) rather than specific technical skills (e.g. “python”, “pandas”).
 
-## 📝 Lizenz
+## 📝 License
 
-Dieses Projekt steht unter der MIT License - siehe [LICENSE](LICENSE) Datei für Details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
