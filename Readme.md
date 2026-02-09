@@ -50,7 +50,7 @@ This project is an **interactive dashboard** designed to explore the Data and AI
 
 1. **Clone the repository** (or download as ZIP):
    ```bash
-   git clone https://github.com/DEIN-USERNAME/data-jobs-dashboard.git
+   git clone https://github.com/Ni-o-iN/data-jobs-dashboard.git
    cd data-jobs-dashboard
    ```
 
