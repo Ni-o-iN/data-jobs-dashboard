@@ -44,7 +44,7 @@ This project is an **interactive dashboard** designed to explore the Data and AI
 
 - Python 3.10 or higher
 - pip (Python Package Manager)
-- Git (optional, zum Klonen)
+- Git (optional)
 
 ### Step-by-Step Guide
 
