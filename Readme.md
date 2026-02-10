@@ -113,8 +113,8 @@ Jobs are included if these keywords appear in:
 
 | Technology | Usage |
 |------------|-----------|
-| **Python 3.14.2** | Programming language |
-| **Streamlit 1.54.0** | Web dashboard framework |
+| **Python 3.10+** | Programming language |
+| **Streamlit 1.30.0+** | Web dashboard framework |
 | **Plotly Express** | Interactive visualizations |
 | **Requests** | API calls |
 | **Collections (Counter)** | Data aggregation |
