@@ -22,8 +22,6 @@ An interactive Streamlit dashboard for visualizing and analyzing Data and AI job
 
 This project is an **interactive dashboard** designed to explore the Data and AI job market. It uses the RemoteOK API to fetch current remote job listings, filters them by relevant keywords, and visualizes the results in a clear and user-friendly way.
 
-**Motivation:** As an aspiring data professional, I wanted to better understand the job market while gaining hands-on experience with APIs, data visualization, and web dashboards.
-
 ## ✨ Features
 
 - 🔍 **Automatic Filtering** - Identifies Data/AI-relevant jobs from 95+ remote positions
