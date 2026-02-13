@@ -126,7 +126,7 @@ data-jobs-dashboard/
 │
 ├── app.py                          # Main dashboard application
 ├── requirements.txt                # Python dependencies
-└── data-ai-dashboard-overview.png  # Demo Overview
+└── data-ai-dashboard-overview.png  # Dashboard Overview
 ```
 
 ## 🌐 API Information
