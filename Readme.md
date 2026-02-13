@@ -3,8 +3,9 @@
 An interactive Streamlit dashboard for visualizing and analyzing Data and AI job listings fetched from the RemoteOK API.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.30.0+-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-red.svg)
+![Plotly](https://img.shields.io/badge/Plotly-blue.svg)
+![Requests](https://img.shields.io/badge/Requests-yellow.svg)
 
 ## 📋 Table of Contents
 
